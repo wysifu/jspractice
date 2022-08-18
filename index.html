@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>ayo</title>
+    <script src='yo.js'></script>
+    <link rel="stylesheet" href="yo.css">
+</head>
+
+<!--on click is used to specify what to do when user clicks the button. below we have decded to run a function that will 
+change the value to the color specific count and then it will change the inner html of the element with correct id to match 
+value of the color sppecific count.-->
+
+<body>
+    <h1>we sittin' here talkin' bout practice...</h1>
+    <br>
+    <h1>count it up.. count it up.. count it up..</h1>
+    <br>
+    <h2 class='red'>red marbles entered: </h2>
+    <h3 id="rmc" class='red'>0</h3>
+    <button class='button' onclick='addOneR()'>increment</button>
+    <button class='button' onclick='minusOneR()'>decrement</button>
+    <br>
+    <h2 class='blue'>blue marbles entered: </h2>
+    <h3 class='blue' id="bmc">0</h3>
+    <button class='button' onclick='addOneB()'>increment</button>
+    <button class='button' onclick='minusOneB()'>decrement</button>
+    <br>
+    <h2 class='green'>green marbles entered: </h2>
+    <h3 class='green' id="gmc">0</h3>
+    <button class='button' onclick='addOneG()'>increment</button>
+    <button class='button' onclick='minusOneG()'>decrement</button>
+</body>
+</html>
